@@ -19,6 +19,9 @@ env: {}
   # kafka_payload_topic: dev.hcx.request.payload
   # kafka_ingest_topic: dev.hcx.request.ingest
 
+awsSecretKey: ""
+awsAccessKey: ""
+
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
